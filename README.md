@@ -96,6 +96,8 @@ npm run dev
 
 ### Render
 
+**URL do Deploy:** https://taskflow-back-pc5v.onrender.com
+
 1. **Conecte seu repositório GitHub ao Render**
    - Acesse [Render Dashboard](https://dashboard.render.com)
    - Clique em "New" → "Web Service"
@@ -110,8 +112,9 @@ npm run dev
 3. **Variáveis de Ambiente**
    - `NODE_ENV`: `production`
 
-4. **Deploy automático**
-   - Qualquer push para `main` dispara o deploy automaticamente
+4. **Deploy via GitHub Actions**
+   - O deploy ocorre **exclusivamente** ao fazer push de tags SemVer
+   - O workflow `release.yml` é acionado automaticamente
 
 ---
 
