@@ -13,6 +13,18 @@ app.use(cors());
 app.use(express.json());
 
 // ── Rotas ────────────────────────────────────────────────────────────────────
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "TaskFlow API",
+    version: "1.0.0",
+    endpoints: {
+      health: "/health",
+      tasks: "/tasks"
+    }
+  });
+});
+
 app.use("/tasks", taskRoutes);
 app.use("/health", healthRoutes);
 
