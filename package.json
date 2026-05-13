@@ -1,5 +1,5 @@
 {
-  "name": "taskflow-api",
+  "name": "taskflow-back",
   "version": "1.0.0",
   "description": "REST API do TaskFlow para gerenciamento de tarefas",
   "main": "src/server.js",

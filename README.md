@@ -1,4 +1,4 @@
-# TaskFlow API
+# TaskFlow Back
 
 REST API para gerenciamento de tarefas, desenvolvida com Node.js e Express.
 
@@ -16,8 +16,8 @@ REST API para gerenciamento de tarefas, desenvolvida com Node.js e Express.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/taskflow-api.git
-cd taskflow-api
+git clone https://github.com/OtavioColimo/taskflow-back.git
+cd taskflow-back
 
 # 2. Instale as dependências
 npm install
@@ -104,7 +104,7 @@ npm run dev
    - Selecione este repositório
 
 2. **Configure o serviço**
-   - Nome: `taskflow-api`
+   - Nome: `taskflow-back`
    - Ambiente: `Node`
    - Build Command: `npm install`
    - Start Command: `npm start`
@@ -121,7 +121,7 @@ npm run dev
 ## Estrutura do Projeto
 
 ```
-taskflow-api/
+taskflow-back/
 ├── .github/
 │   └── workflows/
 │       └── release.yml       # CI/CD — deploy no Render via tag

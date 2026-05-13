@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: taskflow-api
+    name: taskflow-back
     runtime: node
     plan: free
     buildCommand: npm install
