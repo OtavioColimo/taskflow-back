@@ -92,6 +92,29 @@ npm run dev
 
 ---
 
+## Deployment
+
+### Render
+
+1. **Conecte seu repositório GitHub ao Render**
+   - Acesse [Render Dashboard](https://dashboard.render.com)
+   - Clique em "New" → "Web Service"
+   - Selecione este repositório
+
+2. **Configure o serviço**
+   - Nome: `taskflow-api`
+   - Ambiente: `Node`
+   - Build Command: `npm install`
+   - Start Command: `npm start`
+
+3. **Variáveis de Ambiente**
+   - `NODE_ENV`: `production`
+
+4. **Deploy automático**
+   - Qualquer push para `main` dispara o deploy automaticamente
+
+---
+
 ## Estrutura do Projeto
 
 ```
