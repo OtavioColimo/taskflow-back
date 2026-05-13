@@ -1,0 +1,22 @@
+{
+  "name": "taskflow-api",
+  "version": "1.0.0",
+  "description": "REST API do TaskFlow para gerenciamento de tarefas",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "uuid": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
